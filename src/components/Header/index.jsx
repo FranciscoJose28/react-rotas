@@ -1,6 +1,8 @@
+import "./index.css";
+
 const Header = () => {
     return (
-        <>
+        <header>
             <h1>LOGO</h1>
             <nav>
                 <ul>
@@ -15,7 +17,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-        </>
+        </header>
     );
 }
  
